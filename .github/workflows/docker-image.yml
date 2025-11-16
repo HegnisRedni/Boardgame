@@ -38,4 +38,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: singhind/boardgame:${{ github.sha }}
+          tags: singhind/boardgame:${{ github.ref_name }}
